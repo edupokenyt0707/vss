@@ -1,0 +1,58 @@
+/* Definições gerais */
+:root {
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #fff;
+    --botao-azul-efeito: #3c92fa;
+    --cor-link: #000; /* Cor padrão dos links */
+}
+
+/* Estilos para o footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-links {
+    text-align: center;
+}
+
+.lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista__item {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Efeitos nos links do footer */
+.lista__link {
+    color: var(--cor-link);
+    text-decoration: none;
+}
+
+.lista__link:hover {
+    color: var(--botao-azul);
+}
+
+.lista__link:active {
+    color: purple;
+}
+
+/* Efeito nos botões do footer */
+.container__botao {
+    background-color: var(--botao-azul);
+    color: var(--cor-de-fundo);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container__botao:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
+}
